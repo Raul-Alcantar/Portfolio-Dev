@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<section>
+    <h2>Projects</h2>
+    <p>These projects represent my journey into front-end development, small steps that helped me understand how HTML, CSS, and JavaScript work together to bring ideas to life. Each one was a chance to practice, make mistakes, and get a little better at writing cleaner, more organized code. They may look simple, but they reflect my curiosity, consistency, and commitment to keep improving as I grow in web development. Each project also highlights a specific tool or concept I’ve learned, whether it’s JavaScript logic, CSS styling, or responsive layout techniques.
+    </p>
+</section>
+<section class="cards">
+    <div class="card">
+        <img src="images/king-mole-hungry.png" alt="Cookie">
+        <h4>Game: Feed a Cookie!</h4>
+        <p>"Feed a Cookie!” is a simple yet meaningful browser game inspired by my beloved dog, Cookie, who passed away about a year ago. Creating this project was both a coding challenge and a personal tribute, a way to keep his memory alive through a bit of joy and playfulness.
+        </p>
+        <button onclick="location.href='Game-description.html'">See Details</button>
+    </div>
+    <div class="card">
+        <img src="images/Calculator.jpg" alt="calculator">
+        <h4>JavaScript Calculator</h4>
+        <p>Building this calculator was one of the most challenging yet rewarding parts of my learning process. It pushed me to understand how JavaScript can interact with the DOM to handle user input, perform operations, and dynamically update the interface.
+        </p>
+        <button onclick="location.href='Calculator-description.html'">See Details</button>
+    </div>
+    <div class="card">
+        <img src="images/Doggo.png" alt="dog">
+        <h4>Mystery Dog API</h4>
+        <p>Mystery Dog API is a lighthearted project built to explore API fetching and DOM manipulation in JavaScript. With just one click on the “Add Doggo” button, a random dog image appears on the screen, each one a new surprise fetched from an external API. This project was a fun way to understand how to handle asynchronous data, interact with APIs, and dynamically update the interface, all while being rewarded with adorable dog faces along the way.
+        </p>
+        <button onclick="location.href='mystery-dog-description.html'">See Details</button>
+    </div>
+</section>
+<footer>
+    <div class="line"></div>
+    <div class="column">
+        <h4>Design Projects</h4>
+        <a href="https://www.behance.net/gallery/230866953/Portfolio-UX-UI-Design-2025" target="_blank">Design Portfolio</a>
+        <a href="https://www.behance.net/gallery/230881749/Case-Study-MFM-Portfolio-UX-UI-Design-2025" target="_blank">Case Study: MFM</a>
+        <a href="https://www.behance.net/gallery/230873695/Bold-Bites-Portfolio-UX-UI-Design-2025" target="_blank">Bold Bites</a>
+        <a href="https://www.behance.net/gallery/230879691/Glitter-Portfolio-UX-UI-Design-2025" target="_blank">Glitter</a>
+    </div>
+    <div class="column">
+        <h4>Dev Projects</h4>
+        <a href="game-description.html">Game: Feed a Cookie!</a>
+        <a href="Calculator-description.html">JavaScript Calculator</a>
+        <a href="mystery-dog-description.html">Mystery Dog API</a>
+    </div>
+    <div class="column">
+        <h4>Contact</h4>
+        <a href="https://www.behance.net/ralalcntar" target="_blank">Behance</a>
+        <a href="https://www.linkedin.com/in/ra%C3%BAl-alc%C3%A1ntar-palomino-design/" target="_blank">Linkedin</a>
+        <a href="contact.html">Email</a>
+    </div>
+    <div class="line"></div>
+    <div class="icons-rights">
+        <p>&copy; 2025 Raúl Alcántar. All rights reserved.</p>
+        <div class="icons">
+            <img src="images/icon/linkedin.svg" alt="Linkedin">
+            <img src="images/icon/behance.svg" alt="Behance">
+            <img src="images/icon/instagram.svg" alt="Instagram">
+            <img src="images/icon/facebook.svg" alt="Facebook">
+        </div>
+    </div>
+</footer>
+<div id="firstVisitModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-title-text">
+        <h2>Notice</h2>
+        <p>This website is currently optimized for desktop only. For the best experience, please view it on a computer browser.</p>
+    </div>
+    <button id="closeModal">Got it</button>
+  </div>
+</div>
+<script src="js/sitio.js"></script>
+</body>
+</html>
